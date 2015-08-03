@@ -1,0 +1,2 @@
+Server News
+Initial version 10.8x

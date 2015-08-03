@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mod name="First Items" version="1.0" author="The Forgotten Server" contact="otland.net" enabled="yes">
+	<config name="firstitems_config"><![CDATA[
+		config = {
+			storage = 30001,
+			items = {2050, 2382}
+		}
+	]]></config>
+<event type="login" name="FirstItems" event="script">
+<![CDATA[ 
+		domodlib('firstitems_config')
+
+		function onLogin(cid)
+	if getPlayerGroupId(cid) == 1 and getPlayerStorageValue(cid, 50000) == -1 then
+		if isSorcerer(cid) then
+			local bag = doPlayerAddItem(cid, 1988, 1)
+	
+			doAddContainerItem(bag, 2120, 1)
+                        doAddContainerItem(bag, 2554, 1)
+			doAddContainerItem(bag, 2152, 20)
+		
+			doPlayerAddItem(cid, 2525, 1)
+			doPlayerAddItem(cid, 2190, 1)
+                  doPlayerAddItem(cid, 2789, 10)
+                  doPlayerAddItem(cid, 2200, 1)
+			doPlayerAddItem(cid, 2463, 1)
+			doPlayerAddItem(cid, 2457, 1)
+			doPlayerAddItem(cid, 2647, 1)
+			doPlayerAddItem(cid, 7457, 1)
+
+		setPlayerStorageValue(cid, 50000, 1)
+
+		elseif isDruid(cid) then
+			local bag = doPlayerAddItem(cid, 1988, 1)
+			doAddContainerItem(bag, 2120, 1)
+                        doAddContainerItem(bag, 2554, 1)
+			doAddContainerItem(bag, 2152, 20)
+		
+			doPlayerAddItem(cid, 2525, 1)
+			doPlayerAddItem(cid, 2182, 1)
+                  doPlayerAddItem(cid, 2789, 10)
+                  doPlayerAddItem(cid, 2200, 1)
+			doPlayerAddItem(cid, 2463, 1)
+			doPlayerAddItem(cid, 2457, 1)
+			doPlayerAddItem(cid, 2647, 1)
+			doPlayerAddItem(cid, 7457, 1)
+
+			setPlayerStorageValue(cid, 50000, 1)
+
+		elseif isPaladin(cid) then
+			local bag = doPlayerAddItem(cid, 1988, 1)
+			doAddContainerItem(bag, 2120, 1)
+                        doAddContainerItem(bag, 2554, 1)
+			doAddContainerItem(bag, 2152, 20)
+		
+			doPlayerAddItem(cid, 2525, 1)
+			doPlayerAddItem(cid, 2389, 1)
+                  doPlayerAddItem(cid, 2789, 10)
+                  doPlayerAddItem(cid, 2200, 1)
+			doPlayerAddItem(cid, 2463, 1)
+			doPlayerAddItem(cid, 2457, 1)
+			doPlayerAddItem(cid, 2647, 1)
+			doPlayerAddItem(cid, 7457, 1)
+
+			setPlayerStorageValue(cid, 50000, 1)
+
+		elseif isKnight(cid) then
+			local bag = doPlayerAddItem(cid, 1988, 1)
+			doAddContainerItem(bag, 2120, 1)
+                        doAddContainerItem(bag, 2554, 1)
+			doAddContainerItem(bag, 2152, 20)
+			doAddContainerItem(bag, 8602, 1)
+                        doAddContainerItem(bag, 2439, 1)
+		
+			doPlayerAddItem(cid, 2525, 1)
+                        doPlayerAddItem(cid, 2789, 10)
+                        doPlayerAddItem(cid, 2200, 1)
+                        doPlayerAddItem(cid, 8601, 1)
+			doPlayerAddItem(cid, 2463, 1)
+			doPlayerAddItem(cid, 2457, 1)
+			doPlayerAddItem(cid, 2647, 1)
+			doPlayerAddItem(cid, 7457, 1)
+
+			setPlayerStorageValue(cid, 50000, 1)
+		end
+	end
+ 	return TRUE
+end
+	
+
+  ]]> 
+  </event>
+  </mod>
