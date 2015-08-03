@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Mountain Troll" nameDescription="a mountain troll" race="blood" experience="12" speed="170">
+	<health now="30" max="30"/>
+	<look type="15" corpse="5960"/>
+	<targetchange interval="4000" chance="0"/>
+	<flags>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="1"/>
+		<flag convinceable="1"/>
+		<flag pushable="1"/>
+		<flag canpushitems="0"/>
+		<flag canpushcreatures="0"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="90"/>
+		<flag runonhealth="7"/>
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" min="0" max="-9"/>
+	</attacks>
+	<defenses armor="5" defense="6"/>
+	<elements>
+		<element energyPercent="9"/>
+		<element holyPercent="5"/>
+		<element earthPercent="-8"/>
+		<element deathPercent="-11"/>
+	</elements>
+	<loot>
+		<item id="2148" countmax="8" chance="65300"/>	<!-- gold coin -->
+		<item id="2380" chance="18000"/>				<!-- hand axe -->
+		<item id="2666" chance="15000"/>				<!-- meat -->
+		<item id="2389" chance="13000"/>				<!-- spear -->
+		<item id="2461" chance="12000"/>				<!-- leather helmet -->
+		<item id="2643" chance="10000"/>				<!-- leather boots -->
+		<item id="3272" chance="7950"/>					<!-- rapier -->
+		<item id="2448" chance="5000"/>					<!-- studded club -->
+		<item id="2512" chance="4730"/>					<!-- wooden shield -->
+		<item id="10606" chance="1000"/>				<!-- bunch of troll hair -->
+		<item id="2170" chance="20"/>					<!-- silver amulet -->
+	</loot>
+</monster>

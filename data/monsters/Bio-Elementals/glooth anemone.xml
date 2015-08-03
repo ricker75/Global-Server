@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Glooth Anemone" nameDescription="a glooth anemone" race="blood" experience="1800" speed="200" manacost="490">
+	<health now="2400" max="2400"/>
+	<look type="604" corpse="23352"/>
+	<targetchange interval="4000" chance="10"/>
+	<flags>
+		<flag summonable="1"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="1"/>
+		<flag convinceable="1"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="90"/>
+		<flag runonhealth="0"/>
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" skill="90" attack="60"/>
+	</attacks>
+	<defenses armor="20" defense="20"/>
+	<elements>
+		<element energyPercent="25"/>
+		<element holyPercent="20"/>
+		<element earthPercent="-10"/>
+		<element deathPercent="-10"/>
+	</elements>
+	<voices interval="5000" chance="10">
+		<voice sentence="Il lorstok human!"/>
+		<voice sentence="Toks utat."/>
+		<voice sentence="Human, uh whil dyh!"/>
+		<voice sentence="Youh ah trak!"/>
+		<voice sentence="Let da mashing begin!"/>
+	</voices>
+	<loot>
+		<item id="2148" countmax="173" chance="100000"/><!-- gold coin -->
+		<item id="2152" countmax="3" chance="35100"/><!-- platinum coin -->
+		<item id="23561" chance="14650"/><!-- slimy leaf tentacle -->
+		<item id="7589" chance="10350"/><!-- strong mana potion -->
+		<item id="23508" chance="9340"/><!-- bowl of glooth soup -->
+		<item id="7588" chance="6310"/><!-- strong health potion -->
+		<item id="2149" countmax="2" chance="3790"/><!-- small emerald -->
+		<item id="9970" countmax="2" chance="3790"/><!-- small topaz -->
+		<item id="2796" chance="3280"/><!-- green mushroom -->
+		<item id="23536" chance="3030"/><!-- glooth whip -->
+		<item id="23542" chance="2270"/><!-- glooth club -->
+		<item id="8473" chance="1010"/><!-- ultimate health potion -->
+		<item id="23543" chance="760"/><!-- glooth blade -->
+		<item id="23522" chance="760"/><!-- glooth spear -->
+		<item id="23544" chance="510"/><!-- glooth axe -->
+		<item id="23528" chance="510"/><!-- glooth cape -->
+		<item id="23547" chance="250"/><!-- glooth amulet -->
+	</loot>
+</monster>
