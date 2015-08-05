@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<creaturescripts>
+	<!-- Others -->
+	<event type="login" name="PlayerLogin" script="others/login.lua"/>
+	<event type="death" name="PlayerDeath" script="others/playerdeath.lua"/>
+	<event type="advance" name="AdvanceSave" script="others/advance_save.lua"/>
+	<event type="advance" name="Recompense" script="others/reward.lua"/>
+	<event type="login" name="AddonsMounts" script="others/addons-montarias.lua"/>
+	
+	<event type="login" name="FirstItems" script="others/firstitems.lua" />
+	<event type="login" name="RegenerateStamina" script="others/regeneratestamina.lua" />
+
+	<event type="logout" name="PlayerLogout" script="others/logout.lua" />
+
+	<event type="death" name="PlayerDeath" script="others/playerdeath.lua" />
+	<event type="death" name="DropLoot" script="others/droploot.lua" />
+	<event type="death" name="WhiteDeerDeath" script="others/whitedeer.lua" />
+	<event type="death" name="WhiteDeerScoutsDeath" script="others/whitedeer_scouts.lua" />
+</creaturescripts>
