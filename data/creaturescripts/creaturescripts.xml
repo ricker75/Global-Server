@@ -1,5 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <creaturescripts>
+    <!-- The Elemental Spheres -->
+	<event type="death" name="ElementalSpheres" script="quest/elemental spheres quest/the_elemental_spheres.lua"/>
+	<event type="kill" name="ElementalSpheresKill" script="quest/elemental spheres quest/the_elemental_spheres.lua"/>
+	<event type="login" name="ElementalSpheresLogin" script="quest/elemental spheres quest/the_elemental_spheres.lua"/>
+
+	<!-- Gnomebase -->
+	<event type="kill" name="WarzoneTwo" script="quest/gnomebase/warzone2.lua"/>
+	<event type="kill" name="WarzoneThree" script="quest/gnomebase/warzone3.lua"/>
+	<event type="kill" name="bossesWarzone" script="quest/gnomebase/bossesWarzone.lua"/> 
+	<event type="kill" name="BigfootBurdenWiggler" script="quest/gnomebase/WigglerKill.lua" />
+	
 	<!-- Others -->
 	<event type="login" name="PlayerLogin" script="others/login.lua"/>
 	<event type="death" name="PlayerDeath" script="others/playerdeath.lua"/>
