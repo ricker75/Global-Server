@@ -80,4 +80,7 @@
 	<mount id="78" clientid="734" name="Sea Devil" speed="10" premium="yes" />
 	<mount id="79" clientid="735" name="Coralripper" speed="10" premium="yes" />
 	<mount id="80" clientid="736" name="Plumfish" speed="10" premium="yes" />
+	<mount id="81" clientid="738" name="Gorongra" speed="10" premium="yes" />
+	<mount id="82" clientid="739" name="Noctungra" speed="10" premium="yes" />
+	<mount id="83" clientid="740" name="Silverneck" speed="10" premium="yes" />
 </mounts>
