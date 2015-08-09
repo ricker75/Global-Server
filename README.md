@@ -18,13 +18,18 @@ Test server and display graphics
 
 ![](http://i.imgur.com/6ZBYjPt.png)
 
-#New Future Mounts:
+#New Mounts:
 
-![](http://kruger.260mb.net/Images/Mounts/Unknown_738.gif)
+* Gorongra
+![](http://i.imgur.com/18LvX88.png)
 
-![](http://kruger.260mb.net/Images/Mounts/Unknown_739.gif)
+*Noctungra
+![](http://i.imgur.com/kuUBSg0.png)
 
-![](http://kruger.260mb.net/Images/Mounts/Unknown_740.gif)
+*Silverneck
+![](http://i.imgur.com/6gAFPIY.png)
+
+![](http://i.imgur.com/S93rI0T.png)
 
 ==================
 
@@ -74,5 +79,6 @@ Their guild can be accessed by using an Adventurer's Stone in any city's temple.
 
 [Reward System!](https://youtu.be/XQ7buB6mo1U)
 
+credits: cbrm-Otland
 =====================
 ![Adventurers' Guild](http://vignette4.wikia.nocookie.net/tibia/images/8/89/Wiki-wordmark.png/revision/latest?cb=20150121090512&path-prefix=en)
