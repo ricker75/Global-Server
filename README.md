@@ -73,6 +73,8 @@ Their guild can be accessed by using an Adventurer's Stone in any city's temple.
 
  ![](http://i.imgur.com/ZJdfSGd.png)
 
+ ![](https://i.gyazo.com/8217cad9198dde970db032fc88113d1a.jpg)
+
 ========================
 
 > Reward System!
