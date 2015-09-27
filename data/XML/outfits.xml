@@ -49,7 +49,7 @@
 	<outfit type="0" looktype="724" name="Evoker" premium="1" unlocked="0" enabled="1" />
 	<outfit type="0" looktype="732" name="Seaweaver" premium="1" unlocked="0" enabled="1" />
 	<outfit type="0" looktype="745" name="Recruiter" premium="1" unlocked="0" enabled="1" />
-	<outfit type="0" looktype="749" name="Pirate Hook" premium="1" unlocked="0" enabled="1" />
+	<outfit type="0" looktype="749" name="Sea Dog" premium="1" unlocked="0" enabled="1" />
 
 	<!-- Male outfits -->
 	<outfit type="1" looktype="128" name="Citizen" premium="0" unlocked="1" enabled="1" />
@@ -100,5 +100,5 @@
 	<outfit type="1" looktype="725" name="Evoker" premium="1" unlocked="0" enabled="1" />
 	<outfit type="1" looktype="733" name="Seaweaver" premium="1" unlocked="0" enabled="1" />
 	<outfit type="1" looktype="746" name="Recruiter" premium="1" unlocked="0" enabled="1" />
-	<outfit type="1" looktype="750" name="Pirate Hook" premium="1" unlocked="0" enabled="1" />
+	<outfit type="1" looktype="750" name="Sea Dog" premium="1" unlocked="0" enabled="1" />
 </outfits>
