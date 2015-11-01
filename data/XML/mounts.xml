@@ -83,4 +83,7 @@
 	<mount id="81" clientid="738" name="Gorongra" speed="10" premium="yes" />
 	<mount id="82" clientid="739" name="Noctungra" speed="10" premium="yes" />
 	<mount id="83" clientid="740" name="Silverneck" speed="10" premium="yes" />
+	<mount id="84" clientid="761" name="Sagsnare" speed="10" premium="yes" />
+	<mount id="85" clientid="762" name="Nightstinger" speed="10" premium="yes" />
+	<mount id="86" clientid="763" name="Razorcreep" speed="10" premium="yes" />
 </mounts>
