@@ -2,7 +2,7 @@
 global server base tfs
 
 
-## Initial code version 10.81
+## Initial code version 10.9
 
 Test server and display graphics
 
@@ -71,16 +71,32 @@ Their guild can be accessed by using an Adventurer's Stone in any city's temple.
 ========================
 # Extra Zones
 
+ ![](http://ec12.cdn.cincopa.com/2015-12-06_00-35-56.jpg?o=4&res=13&cdn=ec&p=y&pid=729002&ph3=utmxequhllp5abkfttz41fkxiezdkgqe!EXP124243200&d=AsDA7AQ-MyAAhLh0AIz5mTP&as=mp3)
+ 
+ ![](http://ec12.cdn.cincopa.com/2015-12-05_23-08-07.jpg?o=4&res=10&cdn=ec&p=y&pid=729002&ph3=2onkk04kmm20vju2sqcx5bgs2o4hvd1h!EXP124243200&d=AsDA7AQ-MyAAhLh0AIz5mTP&as=mp3)
+ 
+ ![](http://ec12.cdn.cincopa.com/2015-12-06_16-08-43.jpg?o=4&res=15&cdn=ec&p=y&pid=729002&ph3=fyrz0ktu4srqnwmleuiwlama5bhj2he4!EXP124243200&d=AsDA7AQ-MyAAhLh0AIz5mTP&as=mp3)
+ 
+ ![](http://ec12.cdn.cincopa.com/2015-12-06_16-09-49.jpg?o=4&res=16&cdn=ec&p=y&pid=729002&ph3=sltqsctnjksabisf3c2ewhbuhnvordoi!EXP124243200&d=AsDA7AQ-MyAAhLh0AIz5mTP&as=mp3)
+ 
+ ![](http://ec12.cdn.cincopa.com/2015-12-06_16-10-22.jpg?o=4&res=17&cdn=ec&p=y&pid=729002&ph3=gbkwgrvit5w1u2nynao4afc5xz434hsz!EXP124243200&d=AsDA7AQ-MyAAhLh0AIz5mTP&as=mp3)
+ 
+ ![](http://ec12.cdn.cincopa.com/2015-12-06_16-12-52.jpg?o=4&res=19&cdn=ec&p=y&pid=729002&ph3=ask3a3ssrsimsmvc4ivoabld25zxpxrb!EXP124243200&d=AsDA7AQ-MyAAhLh0AIz5mTP&as=mp3)
+ 
+ ![](http://ec12.cdn.cincopa.com/2015-12-06_16-13-09.jpg?o=4&res=20&cdn=ec&p=y&pid=729002&ph3=affxbuuvwcgilcugsyilq4zhhtazsa1d!EXP124243200&d=AsDA7AQ-MyAAhLh0AIz5mTP&as=mp3)
+ 
+ ![](http://ec12.cdn.cincopa.com/2015-12-06_16-13-29.jpg?o=4&res=21&cdn=ec&p=y&pid=729002&ph3=hktq02vzl1u0pujxmrxq4icq4za5l4ow!EXP124243200&d=AsDA7AQ-MyAAhLh0AIz5mTP&as=mp3)
+ 
+ ![](http://ec12.cdn.cincopa.com/2015-12-06_16-14-13.jpg?o=4&res=22&cdn=ec&p=y&pid=729002&ph3=vdc1zl2ftkdwbfgjx0ohc0rkiotksq3c!EXP124243200&d=AsDA7AQ-MyAAhLh0AIz5mTP&as=mp3)
+ 
+ ![](http://ec12.cdn.cincopa.com/2015-12-06_16-15-36.jpg?o=4&res=23&cdn=ec&p=y&pid=729002&ph3=pczbswvlxdtbkvrwyecoavnmsrtotvm1!EXP124243200&d=AsDA7AQ-MyAAhLh0AIz5mTP&as=mp3)
+ 
+ ![](http://ec12.cdn.cincopa.com/2015-12-06_16-15-56.jpg?o=4&res=24&cdn=ec&p=y&pid=729002&ph3=crgod4gqai1c2xvzsvhm1bz5cxffngn5!EXP124243200&d=AsDA7AQ-MyAAhLh0AIz5mTP&as=mp3)
+
  ![](http://i.imgur.com/ZJdfSGd.png)
 
  ![](https://i.gyazo.com/8217cad9198dde970db032fc88113d1a.jpg)
 
 ========================
 
-> Reward System!
-
-[Reward System!](https://youtu.be/XQ7buB6mo1U)
-
-credits: cbrm-Otland
-=====================
 ![Adventurers' Guild](http://vignette4.wikia.nocookie.net/tibia/images/8/89/Wiki-wordmark.png/revision/latest?cb=20150121090512&path-prefix=en)
