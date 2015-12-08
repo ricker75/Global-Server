@@ -8,7 +8,7 @@ Test server and display graphics
 
 # Version:
 
-![](http://i.imgur.com/6D6Hasf.png)
+![](http://i.imgur.com/fiChxY6.png)
 
 # New items:
 
@@ -70,6 +70,8 @@ Their guild can be accessed by using an Adventurer's Stone in any city's temple.
 
 ========================
 # Extra Zones
+
+ ![](http://i.imgur.com/ABwFWQg.jpg)
 
  ![](http://ec12.cdn.cincopa.com/2015-12-06_00-35-56.jpg?o=4&res=13&cdn=ec&p=y&pid=729002&ph3=utmxequhllp5abkfttz41fkxiezdkgqe!EXP124243200&d=AsDA7AQ-MyAAhLh0AIz5mTP&as=mp3)
  
