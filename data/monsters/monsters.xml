@@ -188,6 +188,32 @@
 <!-- Mustelids -->
 	<monster name="Badger" file="Mustelids/badger.xml"/>
 	<monster name="Skunk" file="Mustelids/skunk.xml"/>
+	
+<!-- Outlaws -->
+	<monster name="Adventurer" file="Outlaws/adventurer.xml"/>
+	<monster name="Angry Adventurer" file="Outlaws/angry adventurer.xml"/>
+	<monster name="Assassin" file="Outlaws/assassin.xml"/>
+	<monster name="Bandit" file="Outlaws/bandit.xml"/>
+	<monster name="Black Knight" file="Outlaws/black knight.xml"/>
+	<monster name="Crazed Beggar" file="Outlaws/crazed beggar.xml"/>
+	<monster name="Crypt Defiler" file="Outlaws/crypt defiler.xml"/>
+	<monster name="Feverish Citizen" file="Outlaws/feverish citizen.xml"/>
+	<monster name="Gang Member" file="Outlaws/gang member.xml"/>
+	<monster name="Gladiator" file="Outlaws/gladiator.xml"/>
+	<monster name="Grave Robber" file="Outlaws/grave robber.xml"/>
+	<monster name="Hero" file="Outlaws/hero.xml"/>
+	<monster name="Hunter" file="Outlaws/hunter.xml"/>
+	<monster name="Nomad" file="Outlaws/nomad.xml"/>
+	<monster name="NomadBlue" file="Outlaws/nomadBlue.xml"/>
+	<monster name="NomadFemale" file="Outlaws/nomadFemale.xml"/>
+	<monster name="Poacher" file="Outlaws/poacher.xml"/>
+	<monster name="Smuggler" file="Outlaws/smuggler.xml"/>
+	<monster name="Stalker" file="Outlaws/stalker.xml"/>
+	<monster name="Thief" file="Outlaws/thief.xml"/>
+	<monster name="Travelling Merchant" file="Outlaws/travelling merchant.xml"/>
+	<monster name="Vicious Squire" file="Outlaws/vicious squire.xml"/>
+	<monster name="Werewolf" file="Outlaws/werewolf.xml"/>
+	<monster name="Wild Warrior" file="Outlaws/wild warrior.xml"/>
 
 <!-- Skeletons -->
 	<monster name="Betrayed Wraith" file="Skeletons/betrayed wraith.xml"/>
