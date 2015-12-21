@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Arit" script="distance.lua" walkinterval="2000" floorchange="0">
+    <health now="100" max="100"/>
+    <look type="146" head="39" body="66" legs="87" feet="92" addons="3"/>
+	<parameters>
+		<parameter key="message_greet" value="Welcome to my shop, |PLAYERNAME|."/>
+        <parameter key="message_farewell" value="Goodbye, please try your new weapons in backyard, not here."/>
+		<parameter key="message_walkaway" value="Bye." />
+    </parameters>
+</npc>
+

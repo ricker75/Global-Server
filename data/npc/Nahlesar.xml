@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Nahlesar" script="Nahlesar.lua" walkinterval="2000" speechbubble="2" floorchange="0">
+  <health now="100" max="100" />
+	<look type="80" head="0" body="0" legs="0" feet="0" addons="0"/>
+	<parameters>
+	<parameter key="message_greet" value="Greetings, |PLAYERNAME|." />
+    <parameter key="module_shop" value="1" />
+    <parameter key="shop_buyable" value=""/>
+	<parameter key="shop_sellable" value="ancient shield,2532,450;
+angelic axe,7436,2000;
+black shield,2529,400;
+blue robe,2656,5000;
+bonebreaker,7428,5000;
+bonelord shield,2518,600;
+boots of haste,2195,15000;
+broadsword,2413,250;
+butcher's axe,7412,9000;
+crown armor,2487,6000;
+crown helmet,2491,1500;
+crown legs,2488,6000;
+crown shield,2519,4000;
+crusader helmet,2497,3000;
+dark armor,2489,200;
+dark helmet,2490,225;
+dragon hammer,2434,1000;
+dragon lance,2414,4000;
+dragon shield,2516,2000;
+dreaded cleaver,7419,7500;
+earth spike sword,7854,500;
+earth war hammer,7868,600;
+energy spike sword,7869,500;
+energy war hammer,7883,600;
+fiery spike sword,7744,500;
+fire axe,2432,4000;
+fire sword,2392,2000;
+giant sword,2393,9500;
+glacial rod,18412,3500;
+glorious axe,7454,1500;
+guardian shield,2515,1000;
+hailstorm rod,2183,1500;
+haunted blade,7407,4000;
+ice rapier,2396,500;
+icy spike sword,7763,1000;
+icy war hammer,7777,1200;
+knight armor,2476,2500;
+knight axe,2430,1000;
+knight legs,2477,2500;
+moonlight rod,2186,100;
+muck rod,18411,3000;
+mystic turban,2663,150;
+necrotic rod,2185,1000;
+noble armor,2486,900;
+northwind rod,8911,1500;
+obsidian lance,2425,500;
+onyx flail,7421,12000;
+ornamented axe,7411,10000;
+phoenix shield,2539,16000;
+poison dagger,2411,50;
+queen's sceptre,7410,10000;
+royal helmet,2498,15000;
+scimitar,2419,150;
+serpent sword,2409,900;
+shadow sceptre,7451,5000;
+skull staff,2436,3000;
+snakebite rod,2182,100;
+spike sword,2383,1000;
+springsprout rod,8912,1600;
+strange helmet,2479,500;
+terra rod,2181,2000;
+thaian sword,7391,16000;
+titan axe,7413,2000;
+tower shield,2528,4000;
+underworld rod,8910,2400;
+vampire shield,2534,7500;
+war hammer,2391,1200;
+wand of inferno,2187,3000;
+warrior helmet,2475,2500" />
+  </parameters>
+</npc>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Spectulus" script="Spectulus.lua" walkinterval="2000" speechbubble="1" floorchange="0">
+  <health now="100" max="100" />
+  <look type="130" head="0" body="77" legs="78" feet="78" addons="2" />
+<parameters>
+	<parameter key="message_farewell" value="Yes yes. Goodbye |PLAYERNAME|."/>
+	<parameter key="message_greet" value="What... why... how?! Shock! What are you doing here?! Speak! Just tell me if you desire to rob me or just want my attention - if so, it is yours entirely now." />
+	<parameter key="message_walkaway" value="Now where was I... ah, yes." />
+</parameters>
+</npc>

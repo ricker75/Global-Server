@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Carlson" script="default.lua" walkinterval="2000" speechbubble="1" floorchange="0">
+  <health now="100" max="100" />
+  <look type="129" head="38" body="113" legs="105" feet="86" addons="0" />
+    <parameters>
+		<parameter key="module_travel" value="1"/>
+		<parameter key="message_greet" value="Hello |PLAYERNAME|. If you want to sail say {travel}."/>
+		<parameter key="travel_destinations" value="carlin,32235,31675,7,0;"/>
+	</parameters>
+</npc>

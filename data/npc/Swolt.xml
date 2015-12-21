@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Swolt" script="default.lua" walkinterval="2000" floorchange="0">
+	<health now="185" max="185"/>
+	<look type="160" head="77" body="80" legs="79" feet="97" addons="0"/>
+<parameters>
+	<parameter key="module_shop" value="1" />
+	<parameter key="shop_buyable" value="i,2689,4;i,2696,6;i,2671,8;i,2666,5" />
+	<parameter key="shop_sellable" value="i,11245,75;i,12637,300;i,11370,50" />
+    </parameters>
+</npc>

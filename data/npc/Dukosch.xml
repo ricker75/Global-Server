@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<npc name="Dukosch" script="KazWagon.lua" walkinterval="2000" speechbubble="1" floorchange="0">
+  <health now="100" max="100" />
+  <look type="70" head="0" body="0" legs="0" feet="0" addons="0" />
+  <parameters>
+    <parameter key="message_greet" value="Welcome, |PLAYERNAME|! Do you feel adventurous? Do you want a weekly {ticket} for the ore wagon system here? You can use it right here to get to the centre of Kazordoon!" />
+    <parameter key="message_farewell" value="Hope to see you again." />
+    <parameter key="message_walkaway" value="It's not as dangerous as they say..." />
+  </parameters>
+</npc>

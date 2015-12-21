@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Tommy" script="toolsevo.lua" walkinterval="2000" floorchange="0">
+    <health now="100" max="100"/>
+    <look type="144" head="40" body="141" legs="242" feet="11" addons="3"/>
+    <parameters>
+        <parameter key="message_greet" value="Hi there, |PLAYERNAME|. What can I do for you? If you need adventure equipment, ask me for a {trade}."/>
+        <parameter key="message_farewell" value="Good bye, |PLAYERNAME|."/>
+        <parameter key="module_keywords" value="1" />
+        <parameter key="keywords" value="job;" />
+        <parameter key="keyword_reply1" value="I am selling tools. Do you need anything?" />
+
+        <parameter key="module_shop" value="1"/>
+        <parameter key="shop_buyable" value="yellow backpack, 1999, 20;yellow bag, 1992, 2;rope, 2120, 50;elvenhair rope, 7731, 500;scythe, 2550, 50;pick, 2553, 50;shovel, 2554, 50;light shovel, 5710, 350;amulet of loss, 2173, 50000;broom, 2324, 20;pitchfork, 2548, 10;rake, 2549, 20;hoe, 2552, 30;wooden spoon, 2567, 8;cleaver, 2568, 20;wooden hammer, 2556, 10;steel hammer, 2557, 50;saw, 2558, 20;mirror, 2560, 5;baking tray, 2561, 50;pot, 2562, 50, 0;pan, 2563, 30;fork, 2564, 5;spoon, 2565, 5;kitchen knife, 2566, 5;oven spatula, 2569, 50;rolling pin, 2570, 5;bowl, 2571, 10;fishing rod, 2580, 50;trap, 2578, 250;worm, 3976, 1;watering can, 7734, 250;rust remover, 9930, 100;" />
+    </parameters>
+</npc>

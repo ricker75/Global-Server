@@ -1,0 +1,72 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<npc name="Asnarus" script="default.lua" walkinterval="2000" floorchange="0">
+  <health now="100" max="100" />
+  <look type="104" head="0" body="0" legs="0" feet="0" addons="0" />
+  <parameters>
+		<parameter key="module_shop" value="1" />
+        <parameter key="message_greet" value="Good day, |PLAYERNAME|. Ask me for a trade."/>
+        <parameter key="message_farewell" value="Bye."/>
+		<parameter key="message_sendtrade" value="Of course, just browse through my wares." />
+		<parameter key="message_walkaway" value="See you, |PLAYERNAME|." />
+	 <parameter key="shop_buyable" value="
+		animate dead rune,2316,375;
+		Arrow,2544,2;
+		Bolt,2543,4;
+		Bow,2456,350;
+		Crossbow,2455,500;
+		Crystalline Arrow,18304,20;
+		desintegrate rune,2310,26;
+		Drill Bolt,18436,12;
+		Earth Arrow,7850,5;
+		Envenomed Arrow,18437,12;
+		fireball rune,2304,45;
+		Flaming Arrow,7840,5;
+		Flash Arrow,7838,5;
+		great health potion,7591,190;
+		great mana potion,7590,120;
+		great spirit potion,8472,190;
+		health potion,7618,45;
+		holy missile rune,2295,16;
+		icicle rune,2271,30;
+		magic wall rune,2293,116;
+		mana potion,7620,50;
+		Onyx Arrow,7365,7;
+		Paralyze Rune,2278,700;
+		Piercing Bolt,7363,5;
+		Power Bolt,2547,7;
+		Prismatic Bolt,18435,20;
+		Royal Spear,7378,15;
+		Shiver Arrow,7839,5;
+		Sniper Arrow,7364,5;
+		soulfire rune,2308,46;
+		Spear,2389,9;
+		stone shower rune,2288,37;
+		strong health potion,7588,100;
+		strong mana potion,7589,80;
+		Tarsal Arrow,15648,6;
+		Throwing Star,2399,42;
+		thunderstorm rune,2315,37;
+		ultimate health potion,8473,310;
+		Vortex Bolt,15649,6;
+		Wild Growth Rune,2269,160" />
+	<parameter key="shop_sellable" value="bow,2456,100;
+		bowl of terror sweat,22538,500;
+		Broken Visor,22518,1900;
+		crossbow,2455,120;
+		Dead Weight,22536,450;
+		empty potion flask,7634,5;
+		empty potion flask,7635,5;
+		empty potion flask,7636,5;
+		Frazzle Skin,22533,400;
+		Frazzle Tongue,22532,700;
+		Goosebump Leather,22539,650;
+		Hemp Rope,22540,350;
+		Pool of Chitinous Glue,22541,480;
+		Sight of Surrender's Eye,22517,3000;
+		Silencer Claws,22534,390;
+		Silencer Resonating Chamber,22535,600;
+		Spear,2389,3;
+		Trapped Bad Dream Monster,22537,900;
+		Vial,9078,5" />
+  </parameters>
+</npc>

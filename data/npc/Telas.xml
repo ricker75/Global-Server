@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Telas" script="Telas.lua" walkinterval="2000" speechbubble="3" floorchange="0">
+  <health now="100" max="100" />
+  <look type="133" head="39" body="0" legs="0" feet="76" addons="1" />
+<parameters>
+<parameter key="module_shop" value="1" />
+<parameter key="shop_sellable" value="acorn,11215,320;acorn,18424,570;acorn,10549,200;acorn,12403,290;acorn,10573,190;acorn,13757,20;acorn,18432,440;acorn,13943,800;acorn,18427,400;acorn,10572,200;acorn,9690,500;acorn,9942,1000;acorn,9941,2000;acorn,9980,3000;acorn,9978,500;acorn,11232,100;acorn,5892,15000;acorn,11227,500;acorn,10581,550;acorn,5889,3000;acorn,5888,500;acorn,5887,10000;acorn,18431,590;acorn,18429,330;acorn,10571,460" />
+        <parameter key="message_greet" value="Hello!"/>
+        <parameter key="message_farewell" value="Good bye, |PLAYERNAME|."/>
+		<parameter key="message_walkaway" value="Farewell." />
+		<parameter key="message_sendtrade" value="Here, take a look at my offer." />
+    </parameters>
+</npc>

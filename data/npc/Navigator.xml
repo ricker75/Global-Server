@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Navigator" script="Navigator.lua" walkinterval="2000" speechbubble="1" floorchange="0">
+  <health now="100" max="100" />
+  <look type="463" head="94" body="123" legs="97" feet="104" addons="2" />
+<parameters>
+        <parameter key="message_greet" value="8O'''' |(( JT(|W-T -( J-T =|- (CW- BO:"/>
+  </parameters>
+</npc>

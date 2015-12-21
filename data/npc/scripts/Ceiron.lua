@@ -1,0 +1,137 @@
+local keywordHandler = KeywordHandler:new()
+local npcHandler = NpcHandler:new(keywordHandler)
+NpcSystem.parseParameters(npcHandler)
+ 
+function onCreatureAppear(cid)			npcHandler:onCreatureAppear(cid)			end
+function onCreatureDisappear(cid)		npcHandler:onCreatureDisappear(cid)			end
+function onCreatureSay(cid, type, msg)		npcHandler:onCreatureSay(cid, type, msg)		end
+function onThink()				npcHandler:onThink()					end
+
+function creatureSayCallback(cid, type, msg)
+	if(not npcHandler:isFocused(cid)) then
+		return false
+	end
+	
+	local p = Player(cid)
+	if(msgcontains(msg, "addon") or msgcontains(msg, "outfit")) then
+		if(p:getStorageValue(1004) < 1) then
+			npcHandler:say("What are you thinking! I would never allow you to slay my beloved friends for the sake of your narcism. Only {Faolan} can grant you a fur like this one.", cid)
+			npcHandler.topic[cid] = 2
+		end
+	elseif(msgcontains(msg, "faolan")) then
+		if(npcHandler.topic[cid] == 2) then
+			npcHandler:say("I know where the great wolf mother lives, but I will not tell that to just anyone. You have to earn my respect first. Are you willing to help me?", cid)
+			npcHandler.topic[cid] = 3
+		elseif(p:getStorageValue(1004) == 8) then
+			npcHandler:say("Right, I will keep my promise. Faolan roams Tibia freely, but her favourite sleeping cave is on Cormaya. I will now enchant you so you will be able to speak the wolf language.", cid)
+			p:setStorageValue(1004, 9)
+			npcHandler.topic[cid] = 0
+		end
+	elseif(msgcontains(msg, "griffinclaw") or msgcontains(msg, "container")) then
+		if(p:getStorageValue(1004) == 1) then
+			npcHandler:say("Were you able to obtain a sample of the Griffinclaw?", cid)
+			npcHandler.topic[cid] = 5
+		end
+	elseif(msgcontains(msg, "task")) then
+		if(p:getStorageValue(1004) == 2) then
+			selfSay("Listen, my next task for you is not exactly easy either. ...", cid)
+			selfSay("In the mountains between Ankrahmun and Tiquanda are two hydra lairs. The nothern one has many waterfalls whereas the southern one has just tiny water trickles. ...", cid)
+			selfSay("However, these trickles are said to contain water as pure and clean as nowhere else in Tibia. ...", cid)
+			selfSay("If you could reach one of these trickles and retrieve a water sample for me, it would be a great help. ...", cid)
+			selfSay("It is important that you take the water directly from the trickle, not from the pond - else it will not be as pure anymore. ...", cid)
+			npcHandler:say("Have you understood everything I told you and will fulfil this task for me?", cid)
+			npcHandler.topic[cid] = 6
+		elseif(p:getStorageValue(1004) == 4) then
+			selfSay("I'm glad that you are still with me, " .. getPlayerName(cid) .. ". Especially because my next task might require even more patience from your side than the ones before. ...", cid)
+			selfSay("Demons... these unholy creatures should have never been able to walk the earth. They are a brood fueled only by hatred and malice. ...", cid)
+			selfSay("Even if slain, their evil spirit is not fully killed. It needs a blessed stake to release their last bit of fiendishness and turn them into dust. ...", cid)
+			selfSay("It does not work all the time, but if you succeed, their vicious spirit is finally defeated. ...", cid)
+			selfSay("I want proof that you are on the right side, against Zathroth. Bring me 100 ounces of demon dust and I shall be convinced. ...", cid)
+			selfSay("You will probably need to ask a priest for help to obtain a blessed stake. ...", cid)
+			npcHandler:say("Have you understood everything I told you and will fulfil this task for me?", cid)
+			npcHandler.topic[cid] = 8
+		elseif(p:getStorageValue(1004) == 6) then
+			selfSay("I have one final task for you, " .. getPlayerName(cid) .. ". Many months ago, I was trying to free the war wolves which are imprisoned inside the orc fortress.", cid)
+			selfSay("Unfortunately, my intrusion was discovered and I had to run for my life. During my escape, I lost my favourite wolf tooth chain.", cid)
+			selfSay("It should still be somewhere in the fortress, if the orcs did not try to eat it. I really wish you could retrieve it for me.", cid)
+			selfSay("It has the letter 'C' carved into one of the teeth. Please look for it.", cid)
+			npcHandler:say("Have you understood everything I told you and will fulfil this task for me?", cid)
+			npcHandler.topic[cid] = 10
+		end
+	elseif(msgcontains(msg, "water")) then
+		if(p:getStorageValue(1004) == 3) then
+			npcHandler:say("Did you bring me a sample of water from the hydra cave?", cid)
+			npcHandler.topic[cid] = 7
+		end
+	elseif(msgcontains(msg, "dust")) then
+		if(p:getStorageValue(1004) == 5) then
+			npcHandler:say("Were you really able to collect 100 ounces of demon dust?", cid)
+			npcHandler.topic[cid] = 9
+		end
+	elseif(msgcontains(msg, "chain")) then
+		if(p:getStorageValue(1004) == 7) then
+			npcHandler:say("Have you really found my wolf tooth chain??", cid)
+			npcHandler.topic[cid] = 11
+		end
+	elseif(msgcontains(msg, "yes")) then
+		if(npcHandler.topic[cid] == 3) then	
+			selfSay("I hope that I am not asking too much of you with this task. I heard of a flower which is currently unique in Tibia and can survive at only one place. ...", cid)
+			selfSay("This place is somewhere in the bleak mountains of Nargor. I would love to have a sample of its blossom, but the problem is that it seldom actually blooms. ...", cid)
+			selfSay("I cannot afford to travel there each day just to check whether the time has already come, besides I have no idea where to start looking. ...", cid)
+			selfSay("I would be deeply grateful if you could support me in this matter and collect a sample of the blooming Griffinclaw for me. ...", cid)
+			npcHandler:say("Have you understood everything I told you and will fullfil this task for me?", cid)
+			npcHandler.topic[cid] = 4
+		elseif(npcHandler.topic[cid] == 4) then	
+			npcHandler:say("Alright then. Take this botanist's container and return to me once you were able to retrieve a sample. Don't lose patience!", cid)
+			p:setStorageValue(1004, 1)
+			p:setStorageValue(12010, 1) --this for default start of Outfit and Addon Quests
+			p:addItem( 4869, 1)
+			npcHandler.topic[cid] = 0
+		elseif(npcHandler.topic[cid] == 5) then
+			if(getPlayerItemCount(cid, 5937) >= 1) then
+				npcHandler:say("Crunor be praised! The Griffinclaw really exists! Now, I will make sure that it will not become extinct. If you are ready to help me again, just ask me for a {task}.", cid)
+				p:removeItem( 5937, 1)
+				p:setStorageValue(1004, 2)
+				npcHandler.topic[cid] = 0	
+			end
+		elseif(npcHandler.topic[cid] == 6) then	
+			npcHandler:say("Great! Here, take my waterskin and try to fill it with water from this special trickle. Don't lose my waterskin, I will not accept some random dirty waterskin.", cid)
+			p:setStorageValue(1004, 3)
+			p:addItem( 5938, 1)
+			npcHandler.topic[cid] = 0
+		elseif(npcHandler.topic[cid] == 7) then
+			if(getPlayerItemCount(cid, 5939) >= 1) then
+				npcHandler:say("Good work, " .. getPlayerName(cid) .. "! This water looks indeed extremely clear. I will examine it right away. If you are ready to help me again, just ask me for a {task}.", cid)
+				p:removeItem(5939, 1)
+				p:setStorageValue(1004, 4)
+				npcHandler.topic[cid] = 0	
+			end
+		elseif(npcHandler.topic[cid] == 8) then	
+			npcHandler:say("Good! I will eagerly await your return.", cid)
+			p:setStorageValue(1004, 5)
+			npcHandler.topic[cid] = 0
+		elseif(npcHandler.topic[cid] == 9) then
+			if(getPlayerItemCount(cid, 6550) >= 100) then
+				npcHandler:say("I'm very impressed, " .. getPlayerName(cid) .. ". With this task you have proven that you are on the right side and are powerful as well. If you are ready to help me again, just ask me for a {task}.", cid)
+				p:removeItem( 6550, 100)
+				p:setStorageValue(1004, 6)
+				npcHandler.topic[cid] = 0	
+			end	
+		elseif(npcHandler.topic[cid] == 10) then	
+			npcHandler:say("Thank you so much. I can't wait to wear it around my neck again, it was a special present from Faolan.", cid)
+			p:setStorageValue(1004, 7)
+			npcHandler.topic[cid] = 0	
+		elseif(npcHandler.topic[cid] == 11) then
+			if(getPlayerItemCount(cid, 5940) >= 1) then
+				npcHandler:say("Crunor be praised! You found my beloved chain! " .. getPlayerName(cid) .. ", you really earned my respect and I consider you as a friend from now on. Remind me to tell you about {Faolan} sometime.", cid)
+				p:removeItem( 5940, 1)
+				p:setStorageValue(1004, 8)
+				npcHandler.topic[cid] = 0	
+			end		
+		end
+	end
+	return true
+end
+
+npcHandler:setCallback(CALLBACK_MESSAGE_DEFAULT, creatureSayCallback)
+npcHandler:addModule(FocusModule:new())

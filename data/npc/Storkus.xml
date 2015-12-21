@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Storkus" script="Storkus.lua" walkinterval="2000" speechbubble="1" floorchange="0">
+  <health now="100" max="100" />
+<look type="160" head="38" body="58" legs="76" feet="95" addons="2"/>
+</npc>

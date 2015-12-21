@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Mortis" script="Mortis.lua" walkinterval="2000" speechbubble="1" floorchange="0">
+  <health now="100" max="100" />
+  <look type="289" head="0" body="76" legs="0" feet="113" addons="2" />
+  <parameters>
+    <parameter key="message_greet" value="Yes yes, hello there. Praise and all." />
+    <parameter key="message_farewell" value="Goodbye." />
+  </parameters>
+</npc>

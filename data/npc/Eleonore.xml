@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Eleonore" script="Eleonore.lua" walkinterval="2000" speechbubble="3" floorchange="0">
+<health now="100" max="100"/>
+<look type="140" head="95" body="10" legs="13" feet="15" addons="1"/>
+  <parameters>
+    <parameter key="message_greet" value="Be greeted. What brings you here?"/>
+    <parameter key="message_farewell" value="Good bye."/>
+  </parameters>
+</npc>

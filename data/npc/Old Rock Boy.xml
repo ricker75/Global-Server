@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Old Rock Boy" script="default.lua" walkinterval="0" speechbubble="1" floorchange="0">
+<health now="150" max="150"/>
+	<look typeex="14889"/>
+<voices>
+	<voice text="Hey! You there! Come near, come!" interval2="100" margin="1" yell="no"/>
+	<voice text="Come, come here!" interval2="120" margin="1" yell="no"/>
+	<voice text="A traveller on this strange island?" interval2="120" margin="1" yell="no"/>
+</voices>
+	<parameters>
+		<parameter key="message_greet" value="Greetings traveller! I wonder what brings you here. I really do. Are you here to help us maybe? Or do you want the latest news perhaps? I really wonder."/>
+		<parameter key="message_walkaway" value="Ah... hey where did you go?"/>
+		<parameter key="message_farewell" value="Take care, it's dangerous out there."/>
+	</parameters>
+</npc>

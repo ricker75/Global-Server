@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Morax" script="default.lua" walkinterval="2000" speechbubble="1" floorchange="0">
+  <health now="100" max="100" />
+  <look type="289" head="0" body="95" legs="0" feet="113" addons="1" />
+  <parameters>
+    <parameter key="message_greet" value="Ah, it's you again. I take it you have something I should see?" />
+    <parameter key="message_farewell" value="Bye, good bye from Morax." />
+  </parameters>
+</npc>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Rock Steady" script="Rock Steady.lua" walkinterval="0" speechbubble="1" floorchange="0">
+<health now="150" max="150"/>
+	<look typeex="14898"/>
+<voices>
+	<voice text="Move along." interval2="100" margin="1" yell="no"/>
+	<voice text="What do you want from me?" interval2="120" margin="1" yell="no"/>
+	<voice text="Ack." interval2="120" margin="1" yell="no"/>
+</voices>
+	<parameters>
+		<parameter key="message_greet" value="Need {help}? Or are you only here for some news. Either way, make it short."/>
+		<parameter key="message_walkaway" value="Finally."/>
+		<parameter key="message_farewell" value="Yeah whatever, whatever."/>
+	</parameters>
+</npc>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Xorlosh" script="Xorlosh.lua" walkinterval="2000" speechbubble="1" floorchange="0">
+  <health now="100" max="100" />
+ <look type="160" head="98" body="95" legs="115" feet="114" addons="0"/>
+  <parameters>
+    <parameter key="message_greet" value="Who are you? Are you a genius in mechanics? You don't look like one." />
+  </parameters>
+</npc>

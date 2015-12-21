@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Auron" script="default.lua" walkinterval="2000" speechbubble="2" floorchange="0">
+    <health now="100" max="100"/>
+    <look type="508" head="78" body="94" legs="25" feet="14" addons="2"/>
+    <parameters>
+        <parameter key="message_greet" value="Welcome to the post office, |PLAYERNAME|!"/>
+        <parameter key="message_farewell" value="Bye, |PLAYERNAME|!"/>
+        <parameter key="module_keywords" value="1" />
+        <parameter key="keywords" value="mail;job" />
+        <parameter key="keyword_reply1" value="Write the name and the address of the receiver on the label. The label has to be in the parcel before you put the parcel in a mailbox." />
+        <parameter key="keyword_reply2" value="I am postwoman and local promoter. Can I help you?" />
+        <parameter key="module_shop" value="1"/>
+        <parameter key="shop_sellable" value="label,2599,1" />
+        <parameter key="shop_buyable" value="parcel,2595,10;label,2599,1;letter,2597,2" />
+    </parameters>
+</npc>

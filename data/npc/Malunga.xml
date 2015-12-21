@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Malunga" script="default.lua" walkinterval="2000" speechbubble="2" floorchange="0">
+  <health now="100" max="100" />
+  <look type="149" head="114" body="97" legs="19" feet="0" addons="0" />
+<parameters>
+		<parameter key="module_shop" value="1" />
+		<parameter key="shop_sellable" value="i,10584,200;i,20110,190;i,11218,28;i,18428,800;i,10551,15;i,15486,150;i,15482,210;i,19743,25;i,19738,20;i,15424,90;i,15455,430;i,15452,360;
+i,15430,80;
+i,15425,180;
+i,13530,1000;
+i,21427,35;
+i,11223,360;
+i,13870,150;
+i,18426,650;
+i,12627,390;
+i,21428,25;
+i,11366,700;
+i,12423,60;
+i,8971,500;
+i,12402,350;
+i,11200,55;
+i,10576,85;
+i,21314,30;
+i,10600,115;
+i,10554,500;
+i,21243,40;
+i,15480,420;
+i,21246,90;
+i,21242,90;
+i,12636,300;
+i,11225,50;
+i,10585,150;
+i,12431,250;
+i,12437,30;
+i,11337,250;
+i,10580,420;
+i,21247,210;
+i,10558,45;
+i,20103,30;
+i,10610,10;
+i,12440,25;
+i,12441,10;
+i,10557,50;
+i,11208,30;
+i,12629,680;
+i,10568,25;
+i,13758,175;
+i,12469,70;
+i,8859,10;
+i,15485,450;
+i,15481,340;
+i,11226,600;
+i,20102,20;
+i,15479,130;
+i,12628,240;
+i,11198,80;
+i,12622,5000;
+i,10560,100;
+i,21241,60;
+i,11367,200;
+i,21312,55;
+i,15483,320;
+i,15484,190;
+i,11328,110;
+i,11230,800;
+i,13942,600;
+i,13881,600;" />
+        <parameter key="message_greet" value="Welcome to my house, |PLAYERNAME|!"/>
+        <parameter key="message_farewell" value="Good bye, |PLAYERNAME|."/>
+		<parameter key="message_walkaway" value="Good bye, |PLAYERNAME|." />
+		<parameter key="message_sendtrade" value="I'm currently interested in these materials." />
+    </parameters>
+</npc>

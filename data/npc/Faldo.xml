@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Faldo" script="default.lua" walkinterval="2000" floorchange="0">
+  <health now="100" max="100" />
+  <look type="130" head="78" body="0" legs="30" feet="95" addons="0" />
+  <parameters>
+        <parameter key="message_greet" value="Hello, if you would like some information of your {status} or to see a {list}, just ask me."/>
+        <parameter key="message_farewell" value="Bye dude..."/>
+  </parameters>
+</npc>

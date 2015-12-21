@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Milos" script="Milos.lua" walkinterval="2000" speechbubble="1" floorchange="0">
+  <health now="100" max="100" />
+  <look type="130" head="19" body="3" legs="3" feet="2" addons="0" />
+<parameters>
+        <parameter key="message_greet" value="Oh hello. I hardly noticed you. I'm afraid I am a bit distracted at the moment."/>
+        <parameter key="message_farewell" value="Good bye, |PLAYERNAME|."/>
+    </parameters>
+</npc>

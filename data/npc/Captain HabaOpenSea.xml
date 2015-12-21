@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Captain Haba" script="default.lua" walkinterval="2000" floorchange="0">
+  <health now="100" max="100" />
+  <look type="98" head="0" body="0" legs="0" feet="0" addons="0" />
+  <parameters>
+    <parameter key="message_greet" value="Wha'd'ya want? Ask me 'bout the instructions if you don't know what to do! If you wanna head {back} to {svargrond}, let me know." />
+    <parameter key="message_farewell" value="Bye." />
+    <parameter key="module_shop" value="1" />
+    <parameter key="module_travel" value="1"/>
+    <parameter key="shop_buyable" value="bait,8297,50;" />
+    <parameter key="travel_destinations" value="back,32352,31125,6,0;svargrond,32352,31125,6,0"/>
+  </parameters>
+</npc>

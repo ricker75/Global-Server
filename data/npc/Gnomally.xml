@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Gnomally" script="Gnomally.lua" walkinterval="2000" speechbubble="2" floorchange="0">
+  <health now="100" max="100" />
+  <look type="507" head="52" body="90" legs="90" feet="90" addons="0" />
+  <parameters>
+        <parameter key="message_greet" value="Hi |PLAYERNAME|, I sell {equipament} for minor and major crystals."/>
+        <parameter key="message_farewell" value="Good bye."/>
+  </parameters>
+</npc>

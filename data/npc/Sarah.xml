@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Sarah" script="task.lua" walkinterval="2000" floorchange="0">
+<health now="100" max="100"/>
+<look type="471" head="96" body="94" legs="114" feet="114" addons="2"/>
+	<parameters>
+		<parameter key="message_farewell" value="See you later!"/>
+		<parameter key="message_greet" value="Oh, please come in, |PLAYERNAME|. Would you like to do some {task} or perhaps ask me for a {trade}."/>
+		<parameter key="message_walkaway" value="Bye." />
+		<parameter key="module_shop" value="1"/>
+		<parameter key="module_keywords" value="1" />
+		<parameter key="keywords" value="duel;help;guild;reward;job;orichalcum;pearl;hunt;teleport;enigma" />
+		<parameter key="keyword_reply1" value="Duel pits are located one floor below. You must finish the {task} before fighting with any of these creatures." />
+		<parameter key="keyword_reply2" value="If you want to begin say {task}. I will show you a list with available ones. X means that task is finished, dots means that task is in progress, some of them are repeatable, but you need to {duel} something first." />
+		<parameter key="keyword_reply3" value="Our members are anonymous. We don't share information about them. We are here to clean this world from innatural creatures." />
+		<parameter key="keyword_reply4" value="As a reward I will share my experience and money with you. You may also travel to places using portals we estabilished, but they are powered with {orichalcum pearls}." />
+		<parameter key="keyword_reply5" value="I am main manager of The Spectral Hunters Guild. How can I {help} you?" />
+		<parameter key="keyword_reply6" value="To fund huntings of our members we are selling them here. We are also buying some trophies. Just say {trade} to see the offer." />
+		<parameter key="keyword_reply7" value="To fund huntings of our members we are selling them here. We are also buying some trophies. Just say {trade} to see the offer." />
+		<parameter key="keyword_reply8" value="If you want to start hunting with us ask for {tasks}" />
+		<parameter key="keyword_reply9" value="Our portals are estabilished with secret techinque unavailable for external members. Currently, we are not recruting." />
+		<parameter key="keyword_reply10" value="This is just our customer. Our homes are located in private dimensions unavailable for mortals." />
+		<parameter key="shop_sellable" value="behemoth trophy,7396,20000;bonebeast trophy,11161,6000;cyclops trophy,7398,500;deer trophy,7397,3000;demon trophy,7393,40000;disgusting trophy,11338,3000;dragon lord trophy,7399,10000;draken trophy,11315,15000;lion trophy,7400,3000;lizard trophy,11336,8000;minotaur trophy,7401,500;wolf trophy,7394,3000;"/>
+		<parameter key="shop_buyable" value="slingshot,5907,34000;"/>
+	</parameters>
+</npc>

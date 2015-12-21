@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Esrik" script="default.lua" walkinterval="2000" floorchange="0">
+	<health now="185" max="185"/>
+	<look type="71" head="0" body="0" legs="0" feet="0" addons="0"/>
+	<parameters>
+		<parameter key="module_shop" value="1"/>
+		<parameter key="shop_sellable" value="twin hooks,11309,500;zaoan halberd,11323,500;bone shoulderplate,11321,150;broken halberd,11335,100;cursed shoulder spikes,11327,320;drachaku,11308,10000;drakinata,11305,10000;draken boots,12646,40000;guardian boots,11240,35000;high guard's shoulderplates,11333,130;legionnaire flags,11334,500;sais,11306,16500;spiked iron ball,11325,100;trashed draken boots,12660,40000;twiceslicer,12613,28000;wailing widow's necklace,11329,3000;zaoan armor,11301,14000;zaoan helmet,11302,45000;zaoan legs,11304,14000;zaoan shoes,11303,5000;zaoan sword,11307,30000;zaogun's shoulderplates,11331,150;"/>
+	</parameters>
+</npc>

@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<npc name="Eruaran" script="Eruaran.lua" walkinterval="2000" speechbubble="2">
+	<health now="100" max="100"/>
+	<look type="63" head="52" body="60" legs="57" feet="36" addons="3"/>
+
+	<parameters>
+		<parameter key="message_greet" value="Be greeted, |PLAYERNAME|." />
+		<parameter key="message_farewell" value="Bye." />		
+		<parameter key="message_buy" value="Are you sure that you want to purchase |ITEMCOUNT| |ITEMNAME| for |TOTALCOST| gold?" />
+		<parameter key="message_sell" value="Are you sure that you want to sell |ITEMCOUNT| |ITEMNAME| for |TOTALCOST| gold?" />
+		<parameter key="message_decline" value="Then Not." />		
+		<parameter key="message_onbuy" value="Here you are." />
+		<parameter key="message_onsell" value="Thank you." />
+		<parameter key="message_walkaway" value="Hm." />
+		
+		<parameter key="module_keywords" value="1" />
+		<parameter key="keywords" value="job;history;evo" />
+		<parameter key="keyword_reply1" value="I'm a smith, I work here." />
+		<parameter key="keyword_reply2" value="I was born here. I am merchant since I was sixteen." />
+		<parameter key="keyword_reply3" value="Many things were changed here, many times. This is not it what it was." />
+		<parameter key="module_shop" value="3"/>
+		<parameter key="shop_buyable" value="Beholder shield,2518,7000;Noble armor,2486,8000"/>
+		<parameter key="shop_sellable" value="Wand of cosmic energy,2189,2000;Wand of decay,2188,1000"/>
+	</parameters>
+</npc>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<npc name="Alternative Rock" script="Alternative Rock.lua" walkinterval="0" speechbubble="1" floorchange="0">
+<health now="150" max="150"/>
+	<look typeex="14888"/>
+<voices>
+	<voice text="How are you?" interval2="100" margin="1" yell="no"/>
+	<voice text="Wanna talk?" interval2="120" margin="1" yell="no"/>
+	<voice text="Heeey there." interval2="120" margin="1" yell="no"/>
+</voices>
+	<parameters>
+		<parameter key="message_greet" value="Hello there! Are you really here to {help} us, friend? Need the latest news on what's going on on this island?"/>
+		<parameter key="message_walkaway" value="Wha... wait, what?"/>
+		<parameter key="message_farewell" value="Yeah yeah, no problem man."/>
+	</parameters>
+</npc>
