@@ -10,9 +10,11 @@ Test server and display graphics
 
 ![](http://i.imgur.com/fiChxY6.png)
 
-# New items:
+# Update 10.9:
 
-![](http://i.imgur.com/eee4J6g.png)
+*Arena Thais
+
+![](http://i.imgur.com/3Sk07O1.gif)
 
 #New Creatures:
 
