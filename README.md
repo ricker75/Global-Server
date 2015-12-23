@@ -14,7 +14,17 @@ Test server and display graphics
 
 *Arena Thais
 
-![](http://i.imgur.com/3Sk07O1.gif)
+![](http://i.imgur.com/Z3bPG4j.jpg)
+
+*Arena Ankrahmun
+![](http://i.imgur.com/hXiUeI9.png)
+
+*Arena Edron
+![](http://i.imgur.com/xk2svE9.jpg)
+
+#Ferumbras Quest
+
+![](http://i.imgur.com/dY7mIym.jpg)
 
 #New Creatures:
 

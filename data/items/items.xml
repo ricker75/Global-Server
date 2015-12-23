@@ -31021,6 +31021,8 @@
 	<item fromid="24977" toid="24978" article="a" name="Dark Wizard's Crown">
 	<attribute key="description" value="Fansite item of TibiaMisterios." />
 	<attribute key="weight" value="4513" />
+	</item>
+		<item id="25934" article="an" name="arena banner">
 	</item>	
 	<item id="30001" name="water" />
 	<item id="30002" name="blood" />
