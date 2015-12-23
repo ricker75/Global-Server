@@ -52,7 +52,7 @@
 	<outfit type="0" looktype="749" name="Pirate Master" premium="0" unlocked="1" enabled="1" />
 	<outfit type="0" looktype="759" name="Royal Pumpkin" premium="0" unlocked="1" enabled="1" />
 	<outfit type="0" looktype="845" name="Rift Warrior" premium="0" unlocked="1" enabled="1" />
-	<outfit type="0" looktype="852" name="New Outfit" premium="0" unlocked="1" enabled="1" />
+	<outfit type="0" looktype="852" name="Winter Warden" premium="0" unlocked="1" enabled="1" />
 
 	<!-- Male outfits -->
 	<outfit type="1" looktype="128" name="Citizen" premium="0" unlocked="1" enabled="1" />
@@ -106,5 +106,5 @@
 	<outfit type="1" looktype="750" name="Pirate Master" premium="0" unlocked="1" enabled="1" />	
 	<outfit type="1" looktype="760" name="Royal Pumpkin" premium="0" unlocked="1" enabled="1" />
 	<outfit type="1" looktype="846" name="Rift Warrior" premium="0" unlocked="1" enabled="1" />
-	<outfit type="1" looktype="853" name="New Outfit" premium="0" unlocked="1" enabled="1" />
+	<outfit type="1" looktype="853" name="Winter Warden" premium="0" unlocked="1" enabled="1" />
 </outfits>
