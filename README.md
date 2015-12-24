@@ -12,6 +12,10 @@ Test server and display graphics
 
 # Update 10.9:
 
+*Krailos full
+![](http://i.imgur.com/zTMYiDW.png)
+![](http://i.imgur.com/qq2douY.jpg)
+
 *Arena Thais
 
 ![](http://i.imgur.com/Z3bPG4j.jpg)
