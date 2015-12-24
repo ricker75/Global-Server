@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<monster name="Glooth Blob" nameDescription="a glooth blob" race="blood" experience="600" speed="200" manacost="490">
+	<health now="750" max="750"/>
+	<look type="614" corpse="23472"/>
+	<targetchange interval="4000" chance="10"/>
+	<flags>
+		<flag summonable="1"/>
+		<flag attackable="1"/>
+		<flag hostile="1"/>
+		<flag illusionable="1"/>
+		<flag convinceable="1"/>
+		<flag pushable="0"/>
+		<flag canpushitems="1"/>
+		<flag canpushcreatures="1"/>
+		<flag targetdistance="1"/>
+		<flag staticattack="90"/>
+		<flag runonhealth="0"/>
+	</flags>
+	<attacks>
+		<attack name="melee" interval="2000" skill="60" attack="30"/>
+	</attacks>
+	<defenses armor="20" defense="20"/>
+	<elements>
+		<element energyPercent="25"/>
+		<element holyPercent="20"/>
+		<element earthPercent="-10"/>
+		<element deathPercent="-10"/>
+	</elements>
+	<loot>
+		<item id="2148" countmax="70" chance="100000"/><!-- gold coin -->
+		<item id="23546" chance="16430"/><!-- glob of glooth -->
+		<item id="9970" countmax="2" chance="3270"/><!-- small topaz -->
+		<item id="2146" countmax="2" chance="3180"/><!-- small sapphire -->
+		<item id="23542" chance="690"/><!-- glooth club -->
+		<item id="23544" chance="640"/><!-- glooth axe -->
+		<item id="23547" chance="600"/><!-- glooth amulet -->
+		<item id="23543" chance="460"/><!-- glooth blade -->
+	</loot>
+</monster>
