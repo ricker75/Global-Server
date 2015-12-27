@@ -85,6 +85,14 @@ The Adventurers' Guild is a society of adventurers whose mission is to provide h
 Their guild can be accessed by using an Adventurer's Stone in any city's temple. Players can get their first stone on the ship at the Island of Destiny or ask any Temple NPCs for an "Adventurers' Stone".
 
 ========================
+
+# Fix Hunts and integration of new actions
+
+![](http://i.imgur.com/KhE8cfx.png)
+![](http://i.imgur.com/tsITqOt.png)
+![](http://i.imgur.com/JLoyQ9T.jpg)
+
+========================
 # Extra Zones
 
  ![](http://i.imgur.com/ABwFWQg.jpg)
