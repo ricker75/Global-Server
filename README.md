@@ -6,6 +6,17 @@ global server base tfs
 
 Test server and display graphics
 
+ *Krailos_preview:
+
+http://sendvid.com/cmke8x6u
+============================
+
+Krailos working 100%
+--NPC 100%
+--Quest 100%
+--Boat 100%
+--Depot 100%
+
 # Version:
 
 ![](http://i.imgur.com/fiChxY6.png)
